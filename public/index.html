@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Under Construction</title>
+
+    <!-- Bootstrap -->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/3.1.1/spacelab/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css"
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="background main to-show" style="display:block; background-image:url(images/background.jpg);"></div>
+  	<nav class="navbar navbar-default" role="navigation" style="opacity:0.8;">
+		<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Grovio</a>
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+
+  	<div class="container center-block">
+  		<div class="row top-buffer">
+  			<div class="col-lg-3"></div>
+  			<div class="col-lg-6">
+			  	<div class="jumbotron" style="opacity:0.8;padding-left:20px;padding-top:10px;">
+			  		<h2>Hey there!</h2>
+			  		<p>Grovio is a precision agriculture startup delivering affordable unmanned aerial systems that can be used to collect and analyze visual and infrared aerial imagery of your land.  We'll be launching in mid-July, so come back then for more information!  For inquiries, please contact us at <a href="#"><span id="my-email">please enable javascript to view</span></a>.</p>
+
+			  	</div>
+			</div>
+	  	</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script>
+	$('#my-email').html(function(){
+	var q = "founders";
+	var a = "@";
+	var c = ".io";
+	var w = "grov";
+	var h = 'mailto:' + q + a + w + c;
+	$(this).parent('a').attr('href', h);
+	return q + a + w + c;
+});
+	</script>
+  </body>
+</html>
