@@ -29,7 +29,7 @@ h2{
 
 .post-cover {
     background-position: center center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     bottom: 0;
     left: 0;
