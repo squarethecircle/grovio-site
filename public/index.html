@@ -10,15 +10,8 @@
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/3.1.1/spacelab/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css"
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-  	<div class="background main to-show" style="display:block; background-image:url(images/background.jpg);"></div>
   	<nav class="navbar navbar-default" role="navigation" style="background:rgba(255,255,255,0.4);">
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,6 +41,7 @@
 	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script>
@@ -60,6 +54,9 @@
 	$(this).parent('a').attr('href', h);
 	return q + a + w + c;
 });
+	</script>
+	<script>
+	  $.backstretch("images/background.jpg");
 	</script>
   </body>
 </html>
