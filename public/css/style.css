@@ -3,7 +3,6 @@ h2{
     font-size:250%;
 }
 
-
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -11,4 +10,165 @@ h2{
 }
 .top-buffer { 
     margin-top:10%; 
+}
+
+.box {
+	height:1179px;
+	position:fixed;
+	width:100%;
+	z-index:-1;
+}
+
+.navbar {
+	position:fixed;
+	width:100%;
+	background:rgba(255,255,255,0.7);
+	z-index:2;
+	min-height:0px;
+	overflow:hidden;
+}
+.heading {
+	margin: 0 auto 50px;
+	width: 100%;
+	text-align: center;
+	position:fixed;
+	overflow:hidden;
+
+}
+
+#application {
+
+	border-radius:0;
+	margin-top:1500px;
+	z-index:1;
+	background:rgba(127, 140, 141,0.9);
+	margin-bottom:0;
+}
+.container {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.jumbotron {
+	border-radius:0px;
+}
+
+#application h1 {
+	color: #ecf0f1;
+
+}
+#application p {
+	color: white;
+	font-size:120%;
+
+}
+
+#product {
+	background:rgba(44, 62, 80,0.9);
+	margin:0;
+	border-radius:0;
+
+}
+
+
+#product h1 {
+	color: #ecf0f1;
+}
+
+#product p {
+	color: white;
+	font-size:120%;
+}
+#product ul {
+	color: white;
+	font-size:120%;
+}
+
+#about {
+	background:rgba(41, 128, 185,0.9);
+	margin:0;
+	border-radius:0;
+
+}
+#about h1 {
+	color: #ecf0f1;
+}
+
+#about p {
+	color: white;
+	font-size: 120%;
+}
+
+
+#contact {
+	background:rgba(39, 174, 96,0.9);
+	margin:0;
+	border-radius:0;
+
+}
+#contact h1 {
+	color: #ecf0f1;
+}
+
+#contact p {
+	color: white;
+	font-size:140%;
+}
+
+#contact a:link {
+	color: white;
+	text-decoration: underline;
+}
+
+#contact a:visited {
+	color: white;
+}
+
+#contact a:hover {
+	color: #ecf0f1;
+}
+
+
+#myCarousel .item img {
+	margin:0 auto;
+
+}
+
+#lowerci {
+	bottom:-40px;
+}
+
+.circular1 {
+	display:inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	-webkit-border-radius: 125px;
+	-moz-border-radius: 125px;
+	background: url("/images/sachith.jpg") no-repeat;
+
+}
+
+.circular2 {
+	display:inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	-webkit-border-radius: 125px;
+	-moz-border-radius: 125px;
+	background: url("/images/jp.jpg") no-repeat;
+
+}
+
+.photocontainer {
+	display:table;
+	margin: 0 auto;
+}
+
+.scontainer {
+	display:table-cell;
+	text-align: center;
+	width: 300px;
+	margin:0 auto;
+
 }
