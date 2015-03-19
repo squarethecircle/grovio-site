@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="css/style.css" </head>
 
     <body>
-        <div class="box" id="intro">
-        </div>
         <nav id="mainbar" class="navbar navbar-default" role="navigation">
 
             <div class="container-fluid">
@@ -30,10 +28,10 @@
                     </a>
                 </div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="position:relative;left:10px;top:1px">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li style="font-size: 1.2vw"><a id="li1" href="#">Applications<span class="sr-only">(current)</span></a></li>
-                        <li style="font-size: 1.2vw"><a id="li2" href="#">Technology<span class="sr-only">(current)</span></a></li>
+                        <li style="font-size: 1.2vw"><a id="li1" href="#">Applications</a></li>
+                        <li style="font-size: 1.2vw"><a id="li2" href="#">Technology</a></li>
                         <li style="font-size: 1.2vw"><a id="li3" href="#">About</a></li>
                         <li style="font-size: 1.2vw"><a id="li4" href="#">Contact</a></li>
 
@@ -65,8 +63,9 @@
                     <br>
                     <p>Real-time remote sensing allows growers to diagnose areas of stress in their crop and address the underlying issues immediately. Our technology allows farmers to reduce their fertilizer inputs and treat blight in its earliest stages.</p>
 
-                    <p>Below are some composite images generated using our multispectral imaging system. Healthier crop is red, while regions of stress are in blue.
-                        <p>
+                    <p>Below are some composite images generated using our multispectral imaging system. Healthier crop is red, while regions of stress are in blue.  These images allow growers to identify problems and anomalies at a glance, saving time, money and energy and preventing potentially catastrophic losses from flooding, improper irrigation, insects, or disease.</p>
+
+
                             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <!-- Wrapper for slides -->
@@ -232,7 +231,7 @@
         $(window).on('beforeunload', function() {
             $(window).scrollTop(0);
         });
-        $("#intro").backstretch("images/background.jpg");
+        $.backstretch("images/background.jpg");
         $('#li1').click(function(event) {
             event.preventDefault();
             $.scrollTo("#application", 2000);

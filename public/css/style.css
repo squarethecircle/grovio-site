@@ -2,7 +2,12 @@
 h2{
     font-size:250%;
 }
-
+img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:90%;
+}
 .vcenter {
     display: inline-block;
     vertical-align: middle;
